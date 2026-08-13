@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+
+# Raw and processed data (immutable inputs, never commit)
+data/raw/
+data/processed/
+
+# Caches
+cache/
+
+# Outputs (large artifacts; only small generated files may be committed)
+outputs/runs/
+outputs/latest.txt
+outputs/package/
+
+# LaTeX build debris
+paper/build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

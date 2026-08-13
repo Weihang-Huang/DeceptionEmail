@@ -1,0 +1,27 @@
+{
+  "gate": {
+    "labels_map_to_binary": true,
+    "both_classes_present": true,
+    "source_disjoint_holdout_feasible": true,
+    "feasibility_note": "holdout=('trec5',)",
+    "n_sources": 3,
+    "sources": [
+      "trec5",
+      "trec6",
+      "trec7"
+    ],
+    "passed": true
+  },
+  "balance": {
+    "n_clean": 104810,
+    "n_pos": 46810,
+    "n_neg": 58000,
+    "positive_rate": 0.4466176891517985
+  },
+  "sources": [
+    "trec5",
+    "trec6",
+    "trec7"
+  ],
+  "cleaned_parquet_sha256": "0ccfd5bc0c14696909bc42cabee6c09836f6fef3b4655c845769d4d17a8f47ee"
+}

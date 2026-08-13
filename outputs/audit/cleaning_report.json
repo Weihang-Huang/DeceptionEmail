@@ -1,0 +1,15 @@
+{
+  "clean_report": {
+    "n_raw": 108685,
+    "dropped_empty_short": 85,
+    "dropped_conflict_groups": 0,
+    "kept_duplicates": 3789,
+    "conflict_groups": [],
+    "n_conflict_groups": 0,
+    "conflict_row_original_indices": [],
+    "n_clean": 104810,
+    "n_pos": 46810,
+    "n_neg": 58000
+  },
+  "cleaned_parquet_sha256": "0ccfd5bc0c14696909bc42cabee6c09836f6fef3b4655c845769d4d17a8f47ee"
+}

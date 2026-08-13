@@ -1,0 +1,8 @@
+test_sources,train_sources,holdout_size,valid,reasons,test_size,test_positive_rate,test_n_pos,test_n_neg,rank,selected
+trec5,trec6|trec7,1,True,ok,46762,0.41230058594585345,19280,27482,4,False
+trec6,trec5|trec7,1,True,ok,14696,0.2390446379967338,3513,11183,6,False
+trec7,trec5|trec6,1,True,ok,43352,0.5539998154641078,24017,19335,3,False
+trec5|trec6,trec7,2,True,ok,61458,0.37087116404699144,22793,38665,5,False
+trec5|trec7,trec6,2,True,ok,90114,0.48046918347870476,43297,46817,1,False
+trec6|trec7,trec5,2,True,ok,58048,0.47426267916207276,27530,30518,2,False
+trec5|trec6|trec7,,3,False,empty training set,104810,0.4466176891517985,46810,58000,,False

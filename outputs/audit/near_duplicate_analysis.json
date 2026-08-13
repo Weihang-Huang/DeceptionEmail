@@ -1,0 +1,95 @@
+{
+  "exact_duplicate_counts": {
+    "n_groups_ge2": 1632,
+    "n_rows_in_exact_dup_groups": 10640,
+    "frac_rows_in_exact_dup_groups": 0.10152,
+    "n_groups_cross_source": 78,
+    "n_rows_in_cross_source_groups": 5118,
+    "max_group_size": 1923
+  },
+  "near_duplicate_counts": {
+    "total_pairs_found": 5589932,
+    "n_pairs_hamming_le_0": 2773190,
+    "n_pairs_cross_source_hamming_le_0": 559382,
+    "n_pairs_hamming_le_1": 3280992,
+    "n_pairs_cross_source_hamming_le_1": 700164,
+    "n_pairs_hamming_le_2": 3694570,
+    "n_pairs_cross_source_hamming_le_2": 798572,
+    "n_pairs_hamming_le_3": 4121706,
+    "n_pairs_cross_source_hamming_le_3": 909865,
+    "n_pairs_hamming_le_4": 4500561,
+    "n_pairs_cross_source_hamming_le_4": 1022576,
+    "n_pairs_hamming_le_5": 4810592,
+    "n_pairs_cross_source_hamming_le_5": 1123442,
+    "n_pairs_hamming_le_6": 5083874,
+    "n_pairs_cross_source_hamming_le_6": 1235629,
+    "n_pairs_hamming_le_7": 5337288,
+    "n_pairs_cross_source_hamming_le_7": 1345258,
+    "n_pairs_hamming_le_8": 5589932,
+    "n_pairs_cross_source_hamming_le_8": 1463061,
+    "n_rows_in_near_dup_pairs": 57278,
+    "frac_rows_in_near_dup_pairs": 0.54649,
+    "max_hamming_considered": 8,
+    "note": "Near-duplicate pair counts are exact over candidate pairs that share at least one 16-bit band chunk (4 bands x 16 bits); pairs at Hamming distance d are found with per-band probability (1-d/64)^16, so these figures are lower bounds on near-duplication. Content-level duplicate groups (identical SimHash, Hamming 0) are recovered exactly."
+  },
+  "pair_summary": [
+    {
+      "hamming_threshold": 0,
+      "n_pairs_within_source": 2213808,
+      "n_pairs_cross_source": 559382,
+      "n_pairs_total": 2773190
+    },
+    {
+      "hamming_threshold": 1,
+      "n_pairs_within_source": 2580828,
+      "n_pairs_cross_source": 700164,
+      "n_pairs_total": 3280992
+    },
+    {
+      "hamming_threshold": 2,
+      "n_pairs_within_source": 2895998,
+      "n_pairs_cross_source": 798572,
+      "n_pairs_total": 3694570
+    },
+    {
+      "hamming_threshold": 3,
+      "n_pairs_within_source": 3211841,
+      "n_pairs_cross_source": 909865,
+      "n_pairs_total": 4121706
+    },
+    {
+      "hamming_threshold": 4,
+      "n_pairs_within_source": 3477985,
+      "n_pairs_cross_source": 1022576,
+      "n_pairs_total": 4500561
+    },
+    {
+      "hamming_threshold": 5,
+      "n_pairs_within_source": 3687150,
+      "n_pairs_cross_source": 1123442,
+      "n_pairs_total": 4810592
+    },
+    {
+      "hamming_threshold": 6,
+      "n_pairs_within_source": 3848245,
+      "n_pairs_cross_source": 1235629,
+      "n_pairs_total": 5083874
+    },
+    {
+      "hamming_threshold": 7,
+      "n_pairs_within_source": 3992030,
+      "n_pairs_cross_source": 1345258,
+      "n_pairs_total": 5337288
+    },
+    {
+      "hamming_threshold": 8,
+      "n_pairs_within_source": 4126871,
+      "n_pairs_cross_source": 1463061,
+      "n_pairs_total": 5589932
+    }
+  ],
+  "n_pairs_rows": 5589932,
+  "n_pairs_rows_persisted": 1000000,
+  "n_exact_dup_groups_rows": 1632,
+  "elapsed_s": 28.86
+}

@@ -1,0 +1,13 @@
+{
+  "labels_map_to_binary": true,
+  "both_classes_present": true,
+  "source_disjoint_holdout_feasible": true,
+  "feasibility_note": "holdout=('trec5',)",
+  "n_sources": 3,
+  "sources": [
+    "trec5",
+    "trec6",
+    "trec7"
+  ],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+{
+  "n_primary_total": 104810,
+  "n_secondary_total": 20069,
+  "n_exact_overlap_hashes": 0,
+  "frac_secondary_in_primary": 0.0,
+  "frac_primary_in_secondary": 0.0,
+  "n_simhash_overlap_hashes": 41,
+  "frac_secondary_simhash_in_primary": 0.00204
+}

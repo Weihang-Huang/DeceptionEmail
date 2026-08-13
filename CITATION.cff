@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DeceptionEmail: source-aware cross-corpus evaluation of lightweight models for deceptive email detection"
+version: 0.1.0
+date-released: "2026-08-11"
+license: MIT
+type: software
+authors:
+  - name: "DeceptionEmail contributors"
+preferred-citation:
+  type: article
+  title: "Beyond Random Splits: Cross-Corpus Generalisation of Lightweight Models for Deceptive Email Detection"
+  authors:
+    - name: "DeceptionEmail contributors"
+  year: 2026
+  journal: "Working manuscript for IEEE CyberSciTech 2026 (Late Breaking Innovation)"

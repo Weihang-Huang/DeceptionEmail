@@ -1,0 +1,22 @@
+{
+  "source": "source",
+  "label": "label",
+  "subject": "subject",
+  "body": "body",
+  "sender": "sender",
+  "sender_domain": "sender_domain",
+  "receiver": "receiver",
+  "receiver_domain": "receiver_domain",
+  "date": "date",
+  "content_types": "content_types",
+  "url_count": "url_count",
+  "url_length_max": "url_length_max",
+  "url_length_avg": "url_length_avg",
+  "url_subdom_max": "url_subdom_max",
+  "url_subdom_avg": "url_subdom_avg",
+  "attachment_count": "attachment_count",
+  "has_attachments": "has_attachments",
+  "attachment_types": "attachment_types",
+  "language": "language",
+  "urls": "urls"
+}

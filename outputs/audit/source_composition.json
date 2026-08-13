@@ -1,0 +1,24 @@
+{
+  "documented_sources": [
+    "nazario",
+    "nigerian_fraud",
+    "trec5",
+    "trec6",
+    "trec7"
+  ],
+  "documented_source_count": 5,
+  "actual_sources_in_release": [
+    "trec5",
+    "trec6",
+    "trec7"
+  ],
+  "actual_source_count_in_release": 3,
+  "documented_but_absent_from_release": [
+    "nazario",
+    "nigerian_fraud"
+  ],
+  "present_but_undocumented": [],
+  "source_composition_matches_documentation": false,
+  "verification_source": "https://zenodo.org/records/18471483 and arXiv:2507.17978 (MeAJOR v2.0)",
+  "note": "The MeAJOR v2.0 release artifact contains only the TREC 2005/2006/2007 spam-track corpora; the Nazario and Nigerian Fraud corpora documented in the dataset paper and Zenodo record are absent from the artifact. This is a data-release discrepancy, not a pipeline loss. The study scope is therefore limited to the three TREC sources actually present."
+}

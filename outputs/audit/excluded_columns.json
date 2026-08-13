@@ -1,0 +1,11 @@
+{
+  "source": "direct corpus identifier; would leak source information into the model",
+  "sender": "identity-linked field",
+  "sender_domain": "identity-linked field",
+  "receiver": "identity-linked field",
+  "receiver_domain": "identity-linked field",
+  "date": "timestamps reveal corpus age and confound source",
+  "label": "target variable",
+  "urls": "raw URL list; resolved structural summaries used instead",
+  "attachment_types": "may encode identity-specific attachment names"
+}
